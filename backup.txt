@@ -1,0 +1,36 @@
+<div class="card" style="padding-left: 5%;">
+        <img src="beautiful.jpg" class="imgg">
+        <h2>Beauty</h2>
+        <span class="cardp">We strive to create the most beautiful websites for all your needs. Working closely with you to design and develop an amazing website for your business.</span>
+    </div>
+    <div class="card" float="right">
+        <img src="construction.jpg" class="imgg">
+    </div>
+
+.cardp{
+    float: right;
+    width: 47%;
+    padding-left: 0%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #B31312;
+}
+.card{
+    float: left;
+    width: 47%;
+    padding-left: 0%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #B31312;
+}
+
+.para{
+        float: left;
+        margin: 0%;
+        text-align: left;
+        padding-right: 37%;
+    }
+    .card{
+        float: left;
+        width: 100%;
+    }
